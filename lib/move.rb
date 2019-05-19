@@ -8,7 +8,7 @@ end
 
 def input_to_index(position)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  i = position.to_i - 1
+  position = position.to_i - 1
   board[i] = "X"
 end
 
