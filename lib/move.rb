@@ -12,4 +12,8 @@ end
 
 def move
   
+  def update_array_at_with(array, index, value)
+    
+  end
+  
 end
